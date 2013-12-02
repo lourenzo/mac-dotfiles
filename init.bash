@@ -9,3 +9,6 @@ source $INC_DIR/completion.bash
 
 # PS1
 source $INC_DIR/git-ps1.bash
+
+# Server aliases
+source $INC_DIR/servers.bash
