@@ -1,5 +1,8 @@
 #!/bin/bash
-INC_DIR=$HOME/dotfiles
+# Absolute path to this script. /home/user/bin/foo.sh
+SCRIPT="${BASH_SOURCE[0]}"
+# Absolute path this script is in. /home/user/bin
+INC_DIR=`dirname $SCRIPT`
 
 # Gnu CoreUtils
 source $INC_DIR/gnu-coreutils.bash
