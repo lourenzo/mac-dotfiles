@@ -10,6 +10,9 @@ source $INC_DIR/gnu-coreutils.bash
 # Completion
 source $INC_DIR/completion.bash
 
+# Prompt
+source $INC_DIR/git-prompt.bash
+
 # PS1
 source $INC_DIR/git-ps1.bash
 
