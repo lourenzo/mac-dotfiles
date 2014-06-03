@@ -51,4 +51,3 @@ If you are used with GNU commands, used in most GNU/Linux distros and slightly d
 ```bash
 brew install coreutils
 ```
-
