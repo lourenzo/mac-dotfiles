@@ -21,6 +21,8 @@ fi
 
 # Prompt
 source $INC_DIR/git-prompt.bash
+# Rsync alias
+alias rsync='rsync -az --info=progress2'
 
 # PS1
 source $INC_DIR/git-ps1.bash
