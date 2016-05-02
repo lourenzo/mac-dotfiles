@@ -7,8 +7,6 @@ INC_DIR=`dirname $SCRIPT`
 # Gnu CoreUtils
 source $INC_DIR/gnu-coreutils.bash
 
-# Completion
-source $INC_DIR/completion.bash
 
 # Prompt
 source $INC_DIR/git-prompt.bash
@@ -18,3 +16,6 @@ source $INC_DIR/git-ps1.bash
 
 # Server aliases
 source $INC_DIR/servers.bash
+## And, last but not least
+# Completion
+source $INC_DIR/completion.bash
