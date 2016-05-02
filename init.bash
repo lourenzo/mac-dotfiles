@@ -1,7 +1,9 @@
 #!/bin/bash
-# Absolute path to this script. /home/user/bin/foo.sh
+
+# Absolute path to this script
 SCRIPT="${BASH_SOURCE[0]}"
-# Absolute path this script is in. /home/user/bin
+
+# Absolute path to the folder this script is in
 INC_DIR=`dirname $SCRIPT`
 
 # Infinite History
@@ -19,18 +21,15 @@ if [ -d $HOME/.nodebrew/current/bin ]; then
   export PATH="$HOME/.nodebrew/current/bin:$PATH"
 fi
 
-# Prompt
-source $INC_DIR/git-prompt.bash
 # Rsync alias
 alias rsync='rsync -az --info=progress2'
 
-# PS1
 # Wakatime shell integration
 source $INC_DIR/wakatime.bash
+
+# Git PS1 (shell colorful branch indicator)
 source $INC_DIR/git-ps1.bash
 
-# Server aliases
-source $INC_DIR/servers.bash
 ## And, last but not least
 # Completion
 source $INC_DIR/completion.bash
