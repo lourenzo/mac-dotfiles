@@ -4,6 +4,10 @@ SCRIPT="${BASH_SOURCE[0]}"
 # Absolute path this script is in. /home/user/bin
 INC_DIR=`dirname $SCRIPT`
 
+# Infinite History
+export HISTSIZE=
+export HISTFILESIZE=
+
 # Gnu CoreUtils
 source $INC_DIR/gnu-coreutils.bash
 
