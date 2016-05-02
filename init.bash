@@ -11,6 +11,10 @@ export HISTFILESIZE=
 # Gnu CoreUtils
 source $INC_DIR/gnu-coreutils.bash
 
+# Nodebrew PATH
+if [ -d $HOME/.nodebrew/current/bin ]; then
+  export PATH="$HOME/.nodebrew/current/bin:$PATH"
+fi
 
 # Prompt
 source $INC_DIR/git-prompt.bash
