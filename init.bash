@@ -11,6 +11,9 @@ export HISTFILESIZE=
 # Gnu CoreUtils
 source $INC_DIR/gnu-coreutils.bash
 
+# NPM Local modules path
+export PATH="./node_modules/.bin:$PATH"
+
 # Nodebrew PATH
 if [ -d $HOME/.nodebrew/current/bin ]; then
   export PATH="$HOME/.nodebrew/current/bin:$PATH"
