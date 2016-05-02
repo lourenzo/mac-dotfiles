@@ -25,6 +25,8 @@ source $INC_DIR/git-prompt.bash
 alias rsync='rsync -az --info=progress2'
 
 # PS1
+# Wakatime shell integration
+source $INC_DIR/wakatime.bash
 source $INC_DIR/git-ps1.bash
 
 # Server aliases
